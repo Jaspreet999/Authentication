@@ -1,0 +1,20 @@
+doctype html
+html( lang='en')
+    head
+        title login page 
+
+    body
+        if user
+            h2= user
+            a( href='/log-out') log out
+
+        else
+            h2 Log in
+            form( action='' method='POST')
+                label( for="username") username
+                input(type="text", name="username" id="user")
+                br
+                label( for="password" ) password
+                input(type="password", name="password")
+                br
+                button(type="submit") Log In

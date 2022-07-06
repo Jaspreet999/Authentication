@@ -1,0 +1,27 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Authentication of user",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaspreet999/Authentication.git"
+  },
+  "author": "Jaspreet Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaspreet999/Authentication/issues"
+  },
+  "homepage": "https://github.com/Jaspreet999/Authentication#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.2"
+  }
+}
